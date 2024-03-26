@@ -1,7 +1,7 @@
 package Conta.conta;
 
 public class ContaInvestimento extends Conta{
-    public double taxa;
+    public double taxa = 0.02;
     public int prazo;
     public boolean sacar(double valor) {
         if(this.saldo >= valor) {
